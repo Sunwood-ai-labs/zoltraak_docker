@@ -1,16 +1,3 @@
----
-title: HarmonAI II
-emoji: 🌖
-colorFrom: purple
-colorTo: gray
-sdk: streamlit
-sdk_version: 1.33.0
-app_file: app.py
-pinned: false
-license: mit
----
-
-
 <p align="center">
 <img src="https://media.githubusercontent.com/media/Sunwood-ai-labs/HarmonAI/main/docs/icon/icon2.gif" width="100%">
 <br>
@@ -36,87 +23,50 @@ license: mit
 >[!IMPORTANT]
 >このリポジトリは[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)を活用しており、リリースノートやREADME、コミットメッセージの9割は[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage) ＋ [claude.ai](https://claude.ai/)で生成しています。
 
+## 🌟 Zoltraakとは
 
-## 🌟 Introduction
+**Zoltraak（ゾルトラーク）** は、自然言語（日本語）で様々なタスクを依頼することができる、革新的なプログラミングツールです。
+システム開発、ホームページ制作、デザイン、分析など、短い文章で依頼するだけで必要な資料やソースコードを生成してくれます。
 
-HarmonAI IIは、AIとの調和と無限の可能性を追求するプロジェクトです。このリポジトリは、HarmonAI IIの開発テンプレートとして機能し、以下のような特長を備えています:
+従来の対話型AIとは一線を画し、シンプルかつパワフルな問題解決を実現。
+プログラミングの知識がなくても、アイデアを具現化できる魔法のようなツールです。
 
-### 1. 開発スピードの向上
-- GitHub ActionsとHugging Faceの連携による自動デプロイ
-- 定型的な設定ファイル(.gitignore, .SourceSageignoreなど)の事前準備
+このリポジトリでは、DockerでかんたんにZoltraakを利用する環境を提供しています。
 
-### 2. リポジトリの品質向上  
-- 豊富なバッジによるプロジェクト情報の見える化
-- 体系的に整えられたREADMEテンプレート
-- SourceSageによるAI支援でのコミットメッセージ、リリースノート生成
+## 🚀 はじめに
 
-このテンプレートを活用することで、リポジトリ作成時のイニシャルコストを下げつつ、品質と開発速度を担保することができます。AI時代の開発スタイルを先取りした、生産性の高いテンプレートとしてご利用ください。
+### 事前準備
 
-## 🎥 Demo
+- Docker、docker-composeのインストール 
+- [ANTHROPIC](https://www.anthropic.com/) でAPIキーを取得し、 `.env` ファイルに設定
 
-HarmonAI IIのデモアプリケーションは、GitHub Actionsと連携し、自動的にデプロイされています。デモアプリを体験することで、HarmonAI IIの機能を直感的に理解することができます。
+`.env` ファイルにANTHROPICのAPIキーを設定:
 
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/MakiAi/zoltraak_docker)
-
-## 🚀 Getting Started
-
-### Installation
-
-HarmonAI IIのインストール手順は以下の通りです:
-
-1. リポジトリをクローンします: `git clone https://github.com/Sunwood-ai-labs/zoltraak_docker.git`
-2. 必要な依存関係をインストールします: `pip install -r requirements.txt`
-
-### Usage
-
-HarmonAI IIの使用方法は以下の通りです:
-
-```bash
-git lfs install
-git lfs track "*.png"
-git lfs track "*.gif" 
-git lfs track "*.jpeg"
-git lfs track "*.jpg"
-git lfs track "*.mp4"
+```
+ANTHROPIC_API_KEY=sk-ant-XXXXXXXXXXX
 ```
 
-リポジトリ名を適切に変更してください:
+### 起動方法
 
 ```bash
-run: git push --force https://MakiAi:$HF_TOKEN@huggingface.co/spaces/MakiAi/zoltraak_docker main
+# イメージのビルドとコンテナ起動
+docker-compose up --build
+
+# コンテナ内でbashを起動  
+docker-compose exec app /bin/bash
+
+# Zoltraakを実行
+zoltraak "mp4からgifを作成するstremlitのアプリを作成したい" -c dev_obj
 ```
 
-### Customization
+## 🙌 コントリビューション
 
-HarmonAI IIは、ユーザーのニーズに合わせてカスタマイズ可能です。設定ファイルを編集することで、プロジェクトの動作を柔軟に調整できます。
+IssueやPull Requestは大歓迎です。改善案や機能追加のアイデアがありましたらぜひお寄せください。
 
-## 📝 Updates
+## 📄 ライセンス
 
-- v1.1.0 (2024-04-24):
-  - フロントページの作成
-  - READMEの全体的な改善
-  - GitHub Actionsを使用したHuggingFace hubへの自動シンク機能の追加
-  - .gitignoreと.SourceSageignoreの更新
-  - プロジェクト名を「HarmonAI」から「zoltraak_docker」に変更
-- v1.0.0 (2024-04-20):
-  - 初回リリース
-  - 基本的な機能を実装
+Zoltraak DockerはMITライセンスの下で公開されています。
 
+## 🙏 謝辞
 
-## 🤝 Contributing
-
-HarmonAI IIへのご協力は大歓迎です！バグ報告、機能要求、プルリクエストなどを通じて、プロジェクトの改善にご協力ください。詳細は[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
-
-## 📄 License
-
-HarmonAI IIは[MIT License](LICENSE)の下でリリースされています。
-
-## 🙏 Acknowledgements
-
-HarmonAI IIの開発にあたり、以下の方々に感謝いたします:
-
-- [Sunwood-ai-labs](https://github.com/Sunwood-ai-labs)チームのメンバー
-- [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)プロジェクト
-- [claude.ai](https://claude.ai/)チーム
-
-引き続き、HarmonAI IIプロジェクトをよろしくお願いいたします！
+Zoltraakを開発している [元木大介さん（@ai\_syacho）](https://twitter.com/ai_syacho) に深く感謝いたします。
