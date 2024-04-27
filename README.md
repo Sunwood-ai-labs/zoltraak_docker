@@ -23,9 +23,9 @@
 >[!IMPORTANT]
 >このリポジトリは[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)を活用しており、リリースノートやREADME、コミットメッセージの9割は[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage) ＋ [claude.ai](https://claude.ai/)で生成しています。
 
-## 🌟 Zoltraakとは
+## 🌟 [Zoltraak](https://twitter.com/ai_syacho/status/1782926797790941615)とは
 
-**Zoltraak（ゾルトラーク）** は、自然言語（日本語）で様々なタスクを依頼することができる、革新的なプログラミングツールです。
+[Zoltraak（ゾルトラーク）](https://twitter.com/ai_syacho/status/1782926797790941615) は、自然言語（日本語）で様々なタスクを依頼することができる、革新的なプログラミングツールです。
 システム開発、ホームページ制作、デザイン、分析など、短い文章で依頼するだけで必要な資料やソースコードを生成してくれます。
 
 従来の対話型AIとは一線を画し、シンプルかつパワフルな問題解決を実現。
