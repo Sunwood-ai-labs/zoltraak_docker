@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://media.githubusercontent.com/media/Sunwood-ai-labs/HarmonAI/main/docs/icon/icon2.gif" width="100%">
+<img src="docs/Zoltraak_icon.jpeg" width="100%">
 <br>
 <h1 align="center">Zoltraak Docker</h1>
 <h2 align="center">
