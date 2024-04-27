@@ -3,7 +3,7 @@
 <br>
 <h1 align="center">Zoltraak Docker</h1>
 <h2 align="center">
-  ～AI Harmony, Infinite Possibilities～
+  ～ General Attack Magic ～
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/MakiAi/zoltraak_docker)
 [![zoltraak_docker - Sunwood-ai-labs](https://img.shields.io/static/v1?label=zoltraak_docker&message=Sunwood-ai-labs&color=blue&logo=github)](https://github.com/zoltraak_docker/Sunwood-ai-labs "Go to GitHub repo")
