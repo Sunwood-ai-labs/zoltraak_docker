@@ -33,6 +33,15 @@
 
 このリポジトリでは、DockerでかんたんにZoltraakを利用する環境を提供しています。
 
+
+## 📚 更新情報
+
+### 🎉 [v1.0.0](https://github.com/Sunwood-ai-labs/zoltraak_docker/releases/tag/v1.0.0) - 2024-04-28
+
+- Dockerを使ったZoltraakの簡単な利用環境の提供
+- `.env`ファイルでのANTHROPIC APIキーの設定
+- `README.md`へのZoltraakの詳細説明の追加
+
 ## 🚀 はじめに
 
 ### 事前準備
