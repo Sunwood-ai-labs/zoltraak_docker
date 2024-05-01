@@ -10,3 +10,8 @@
 ## zoltraak_celsius_icon3.gif
 
 ![](zoltraak_celsius_icon3.gif)
+
+
+## zoltraak_celsius_icon4.gif
+
+![](zoltraak_celsius_icon4.gif)
