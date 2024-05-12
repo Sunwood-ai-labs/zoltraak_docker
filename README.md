@@ -1,5 +1,5 @@
 <p align="center">
-<img src="docs/Zoltraak_icon.jpeg" width="100%">
+<img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/Zoltraak_icon.jpeg" width="100%">
 <br>
 <h1 align="center">Zoltraak Docker</h1>
 <h2 align="center">
