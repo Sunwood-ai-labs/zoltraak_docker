@@ -49,10 +49,11 @@
 - Docker、docker-composeのインストール 
 - [ANTHROPIC](https://www.anthropic.com/) でAPIキーを取得し、 `.env` ファイルに設定
 
-`.env` ファイルにANTHROPICのAPIキーを設定:
+`.env` ファイルにANTHROPICとGeminiのAPIキーを設定:
 
 ```
 ANTHROPIC_API_KEY=sk-ant-XXXXXXXXXXX
+GEMINI_API_KEY=XXXXXXXXXXX
 ```
 
 ### 起動方法
